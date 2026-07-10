@@ -1,23 +1,18 @@
 ---
 import Hero from '../components/Hero.astro';
 import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts'; 
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<main>
-  <Hero />
-</main>
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <BaseHead
+      title="C2C CONSTRUCTIONS"
+      description="Former L&T Engineers | Residential • Commercial • Industrial Construction"
+    />
+  </head>
+
+  <body class="m-0">
+    <Hero />
+  </body>
 </html>
